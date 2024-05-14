@@ -1,0 +1,87 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.clinic-name {
+    font-size: 20px; /* Adjust size as needed */
+    font-weight: bold;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.queue-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.queue-block {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+.call-number {
+    font-size: 48px; /* 3x larger than the title */
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+.right {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Added to ensure full height */
+}
+
+iframe {
+    width: 100%; /* Ensures the iframe occupies all available width */
+    height: 100%; /* Ensures the iframe occupies all available height */
+    border: none; /* Removes any default iframe border */
+}
+
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+marquee {
+    font-size: 16px;
+}
